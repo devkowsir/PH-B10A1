@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@400;500&display=swap");
+
+/* global modifications */
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Roboto, "Noto Sans", Arial, sans-serif;
+}
+
+.text-roboto {
+  font-family: Roboto, sans-serif;
+}
+
+.text-play {
+  font-family: Play, sans-serif;
+}
+

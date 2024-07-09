@@ -96,7 +96,7 @@ nav a.download {
 #hero {
   padding: 6rem 0 2rem;
 
-  background-image: url(/assets/Hero-bg.png);
+  background-image: url(assets/Hero-bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -149,14 +149,14 @@ nav a.download {
 }
 
 #purpose .container {
-  padding: 4rem;
+  padding: 5rem;
 
   background-color: #fafafc;
   border-radius: 0.5rem;
 }
 
 #purpose ul {
-  margin: 3rem 0 0;
+  margin: 3rem auto 0;
   padding: 0;
 
   display: flex;
@@ -203,7 +203,7 @@ nav a.download {
 }
 
 #purpose .card-image {
-  width: min(40%, 400px);
+  width: min(40%, 240px);
 }
 
 #purpose .card img {

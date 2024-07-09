@@ -25,7 +25,7 @@ a {
 }
 
 .container {
-  margin-inline: auto;
+  margin: 1rem auto;
   width: clamp(320px, 80%, 1280px);
 }
 

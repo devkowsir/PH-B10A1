@@ -11,6 +11,8 @@
 :root {
   font-family: Roboto, "Noto Sans", Arial, sans-serif;
   color: #434352;
+
+  scroll-behavior: smooth;
 }
 
 .text-roboto {
@@ -28,10 +30,6 @@ a {
 
 body > * {
   margin-bottom: 5rem;
-}
-
-body > *:last-child {
-  margin-bottom: 0;
 }
 
 .container {
@@ -142,7 +140,6 @@ nav a.download {
 #hero button {
   width: max-content;
   margin: 0 auto;
-  padding: 0.75rem 1rem;
 
   background-color: #21212e;
   color: #fff;
@@ -153,6 +150,11 @@ nav a.download {
   border: none;
   outline: none;
   border-radius: 0.5rem;
+}
+
+#hero button a {
+  padding: 0.75rem 1rem;
+  display: inline-block;
 }
 
 /* Purpose */
@@ -345,4 +347,44 @@ nav a.download {
 
 #support form button:hover {
   cursor: pointer;
+}
+
+/* footer */
+footer {
+  margin-bottom: 0;
+  padding: 1rem 0;
+
+  background-color: #fafafc;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+
+  display: flex;
+  gap: 1rem;
+}
+
+footer li a {
+  display: inline-block;
+  width: min-content;
+  height: min-content;
+}
+
+footer i.fab {
+  width: min-content;
+  height: min-content;
+
+  color: #6667a3;
 }

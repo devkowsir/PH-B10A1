@@ -26,6 +26,14 @@ a {
   color: inherit;
 }
 
+body > * {
+  margin-bottom: 5rem;
+}
+
+body > *:last-child {
+  margin-bottom: 0;
+}
+
 .container {
   margin: 1rem auto;
   width: clamp(320px, 80%, 1280px);
@@ -51,7 +59,7 @@ a {
 }
 
 .section-heading h2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 
   font-family: Play, sans-serif;
   font-weight: 700;
@@ -118,7 +126,7 @@ nav a.download {
   margin: 0 auto;
 }
 
-#hero h2 {
+#hero h1 {
   font-size: 2.5rem;
 }
 
@@ -208,4 +216,22 @@ nav a.download {
 
 #purpose .card img {
   width: 100%;
+}
+
+/* Inspiration */
+#inspiration .video {
+  margin: 3rem auto 0;
+  padding: 1.5rem;
+  width: min(100%, 1200px);
+
+  border: 1px solid #babac9;
+  border-radius: 2rem;
+}
+
+#inspiration iframe {
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 560/315;
+
+  border-radius: 1rem;
 }

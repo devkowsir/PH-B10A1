@@ -286,3 +286,63 @@ nav a.download {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+/* support */
+#support .container {
+  padding: 3rem 2rem;
+
+  background-image: url("./assets/handshake.jpg");
+  background-color: rgba(0, 0, 0, 0.3);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+
+  border-radius: 1rem;
+}
+
+#support .container > div {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#support .section-heading h2,
+#support .section-heading p {
+  color: #fafafc;
+}
+
+#support form {
+  padding: 0 2rem;
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#support form input {
+  width: 100%;
+  padding: 1rem;
+
+  font-size: 1rem;
+
+  border-radius: 0.5rem;
+}
+
+#support form input::placeholder {
+  color: #a2a2b9;
+}
+
+#support form button {
+  padding: 1rem;
+  width: max-content;
+
+  font-size: 1rem;
+  font-weight: bold;
+
+  border-radius: 0.5rem;
+  border: none;
+}
+
+#support form button:hover {
+  cursor: pointer;
+}
